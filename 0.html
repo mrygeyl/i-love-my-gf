@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Quicksand',sans-serif;
+    background:linear-gradient(135deg,#ffe6f0,#fff8f8,#e6f7ff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.container{
+    max-width:1000px;
+    width:100%;
+    text-align:center;
+}
+
+h1{
+    font-family:'Pacifico',cursive;
+    color:#ff5f9e;
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:35px;
+    font-size:1.1rem;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:12px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-8px) scale(1.03);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:18px;
+}
+
+.caption{
+    margin-top:12px;
+    color:#ff5f9e;
+    font-weight:bold;
+    font-size:1rem;
+}
+
+.footer{
+    margin-top:40px;
+    font-size:1.2rem;
+    color:#777;
+}
+
+.hearts{
+    font-size:1.5rem;
+    animation:float 2s ease-in-out infinite alternate;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-8px);
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>❤️</h1>
+
+<div class="gallery">
+
+<div class="card">
+<img src="1.jpeg" alt="Photo 1">
+<div class="caption">us 2</div>
+</div>
+
+<div class="card">
+<img src="2.jpeg" alt="Photo 2">
+<div class="caption">fav ko na kuha mo</div>
+</div>
+
+<div class="card">
+<img src="3.jpeg" alt="Photo 3">
+<div class="caption">my happy place</div>
+</div>
+
+<div class="card">
+<img src="4.jpeg" alt="Photo 4">
+<div class="caption">inis ka dito</div>
+</div>
+
+</div>
+
+<div class="footer">
+<p>me and my bebe :p</p>
+<div class="hearts">💗 💗 💗 💗</div>
+</div>
+
+</div>
+
+</body>
+</html>
